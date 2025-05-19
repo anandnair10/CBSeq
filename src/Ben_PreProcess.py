@@ -20,7 +20,7 @@ def process_benign(folder_path):
 
 if __name__ == "__main__":
     # Path to the benign data folder
-    benign_path = r"C:\Users\ANAND NAIR\Desktop\me\stuff\drdo\CBSeq\data\benign"
+    benign_path = r"CBSeq\data\benign"
     
     # Process benign data
     benign_data = process_benign(benign_path)
