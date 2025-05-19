@@ -4,8 +4,8 @@ import os
 from gensim.models import Word2Vec
 
 # File paths
-input_file = 'C:/Users/ANAND NAIR/Desktop/me/stuff/drdo/CBSeq/src/data/bh_seq_aftercluster.csv'
-output_model_dir = "C:/Users/ANAND NAIR/Desktop/me/stuff/drdo/CBSeq/models/model"
+input_file = 'CBSeq/src/data/bh_seq_aftercluster.csv'
+output_model_dir = "CBSeq/models/model"
 
 # Ensure output directory exists
 os.makedirs(output_model_dir, exist_ok=True)
