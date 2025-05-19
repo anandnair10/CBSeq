@@ -7,7 +7,7 @@ This project implements a machine learning pipeline for detecting malware traffi
 Traditional flow-level or packet-based detection methods struggle to handle encrypted and evolving malware.  
 **CBSeq** addresses this by analyzing **channel-level behavior** and capturing **attacking intent** through behavior sequences.
 
-##Pipeline Steps
+### Pipeline Steps
 
 1. **Channel Aggregation**  
 2. **Abstract Feature Extraction** (duration, flow count, data size, etc.)  
@@ -17,7 +17,7 @@ Traditional flow-level or packet-based detection methods struggle to handle encr
 5. **Word2Vec Embedding**  
 6. **MSFormer** (Multi-sequence Transformer Classifier)
 
-##Dataset
+## Dataset
 
 Benign Traffic: BENIGN-ALL
 Malicious Traffic: CTU-13 / Malware Traffic Analysis datasets
