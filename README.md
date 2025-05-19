@@ -8,6 +8,7 @@ Traditional flow-level or packet-based detection methods struggle to handle encr
 **CBSeq** addresses this by analyzing **channel-level behavior** and capturing **attacking intent** through behavior sequences.
 
 ##Pipeline Steps
+
 1. **Channel Aggregation**  
 2. **Abstract Feature Extraction** (duration, flow count, data size, etc.)  
 3. **Channel Clustering** (DBSCAN on abstract features)  
@@ -17,5 +18,6 @@ Traditional flow-level or packet-based detection methods struggle to handle encr
 6. **MSFormer** (Multi-sequence Transformer Classifier)
 
 ##Dataset
+
 Benign Traffic: BENIGN-ALL
 Malicious Traffic: CTU-13 / Malware Traffic Analysis datasets
