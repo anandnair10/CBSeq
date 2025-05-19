@@ -19,5 +19,5 @@ Traditional flow-level or packet-based detection methods struggle to handle encr
 
 ## Dataset
 
-Benign Traffic: BENIGN-ALL
-Malicious Traffic: CTU-13 / Malware Traffic Analysis datasets
+1. Benign Traffic: BENIGN-ALL
+2. Malicious Traffic: CTU-13 / Malware Traffic Analysis datasets
