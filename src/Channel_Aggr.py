@@ -113,15 +113,15 @@ def generate_behavior_sequence(data, output_file):
 
 if __name__ == "__main__":
     # Load the input dataset
-    data = pd.read_csv('C:/Users/ANAND NAIR/Desktop/me/stuff/drdo/CBSeq/src/data/test_dataset.csv')
+    data = pd.read_csv('CBSeq/src/data/test_dataset.csv')
 
     # Ensure the label column exists in the input dataset
     if 'label' not in data.columns:
         raise ValueError("The input dataset must contain a 'label' column.")
 
     # File paths
-    channel_traffic = 'C:/Users/ANAND NAIR/Desktop/me/stuff/drdo/CBSeq/src/data/test/channel_traffic.csv'
-    behavior_sequence_file = 'C:/Users/ANAND NAIR/Desktop/me/stuff/drdo/CBSeq/src/data/test/behavior_sequences.csv'
+    channel_traffic = 'CBSeq/src/data/test/channel_traffic.csv'
+    behavior_sequence_file = 'CBSeq/src/data/test/behavior_sequences.csv'
 
     # Perform channel traffic aggregation
     channel_traffic_aggregation(data, channel_traffic)
