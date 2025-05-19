@@ -5,8 +5,8 @@ import numpy as np
 
 # Load the preprocessed file in chunks (adjust chunk size as needed)
 chunk_size = 10000
-input_file = 'C:/Users/ANAND NAIR/Desktop/me/stuff/drdo/CBSeq/src/data/test/behavior_sequences.csv'
-output_file = 'C:/Users/ANAND NAIR/Desktop/me/stuff/drdo/CBSeq/src/data/test/clustered_behavior_sequences.csv'
+input_file = 'CBSeq/src/data/test/behavior_sequences.csv'
+output_file = 'CBSeq/src/data/test/clustered_behavior_sequences.csv'
 
 # Define a fixed length for truncating/padding sequences
 fixed_length = 100
