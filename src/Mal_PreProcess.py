@@ -20,7 +20,7 @@ def process_malicious(folder_path):
 
 if __name__ == "__main__":
     # Path to the malicious data folder
-    malicious_path = r"C:\Users\ANAND NAIR\Desktop\me\stuff\drdo\CBSeq\data\malicious"
+    malicious_path = r"CBSeq\data\malicious"
     
     # Process malicious data
     malicious_data = process_malicious(malicious_path)
